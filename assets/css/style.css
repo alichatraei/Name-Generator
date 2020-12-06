@@ -1,0 +1,19 @@
+/* load Fonts */
+@font-face {
+  font-family: "vazir";
+  src: url('../fonts/Vazir.woff');
+}
+/* set direction rtl */
+* {
+  direction: rtl;
+  font-family: 'vazir';
+}
+/* hr  */
+hr{
+    border-color: white !important;
+}
+/* main */
+main{
+    border-radius: 1rem;
+    box-shadow: .1rem .2rem .6rem white;
+}
